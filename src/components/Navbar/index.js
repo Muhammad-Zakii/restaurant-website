@@ -1,7 +1,7 @@
 // components/Navbar.js
 
 import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from './NavbarElements';
+import { Nav, NavLink, NavIcon } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
   // Function to scroll to the given section
@@ -26,7 +26,7 @@ const Navbar = ({ toggle }) => {
         </NavLink>
         <NavIcon onClick={toggle}>
           <p>Menu</p>
-          <Bars />
+          {/* <Bars /> */}
         </NavIcon>
       </Nav>
     </>

@@ -8,12 +8,14 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to='/'>Pizzas</SidebarLink>
-        <SidebarLink to='/'>Desserts</SidebarLink>
-        <SidebarLink to='/'>Full Menu</SidebarLink>
+        <SidebarLink to='breakfast'>Break Fast</SidebarLink>
+        <SidebarLink to='lunchanddinner'>Dinner & Lunch</SidebarLink>
+        <SidebarLink to='sweets'>Sweets</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>Order Now</SidebarRoute>
+        <a style={{ color: '#fff', textDecoration: 'none' }} href='#contact'>
+          Order Now
+        </a>
       </SideBtnWrap>
     </SidebarContainer>
   );

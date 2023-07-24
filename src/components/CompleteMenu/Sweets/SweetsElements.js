@@ -1,29 +1,58 @@
 import styled from 'styled-components';
 
 export const ProductsContainer = styled.div`
-  /* width: 100vw; */
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
-  background: #150f0f;
-  color: #fff;
+  background: #f9f2ea;
+  color: #000000;
 `;
 
 export const ProductWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1300px;
   margin: 0 auto;
 `;
 
 export const ProductCard = styled.div`
+  position: relative;
   margin: 0 2rem;
   line-height: 2;
-  width: 300px;
+  flex-basis: 25%;
+  max-width: 300px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #dd2803;
+  }
+`;
+
+export const BackButton = styled.button`
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  background: #dd2803; /* Use the same color as the after pseudo-element in ProductCard */
+  color: #fff;
+  margin-bottom: 2rem;
+  transition: 0.2s ease-out;
+
+  &:hover {
+    background: #e31837; /* Change color on hover */
+    transition: 0.2s ease-out;
+    cursor: pointer;
+  }
 `;
 
 export const ProductImg = styled.img`
-  width: 360px;
   height: 300px;
+  min-width: 360px;
+  max-width: 100%;
   object-fit: cover;
   box-shadow: 8px 8px #fdc500;
 `;
@@ -35,8 +64,10 @@ export const ProductsHeading = styled.h1`
 `;
 
 export const ProductTitle = styled.h2`
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #000000;
+  font: ;
 `;
 
 export const ProductInfo = styled.div`
@@ -63,7 +94,7 @@ export const ProductButton = styled.button`
   border: none;
   background: #e31837;
   color: #fff;
-  transition: 0.2 ease-out;
+  transition: 0.2s ease-out;
 
   &:hover {
     background: #ffc500;

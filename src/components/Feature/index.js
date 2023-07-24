@@ -119,8 +119,9 @@ const Feature = () => {
             <h3>WE'RE OPEN</h3>
             <p style={{ fontSize: '1rem' }}>Monday-Sunday: 5:40am-12:30pm</p>
             <p style={{ fontSize: '1rem' }}>37MP+QV9 - Al Hayl Industrial - Fujairah - United Arab Emirates</p>
-            <p style={{ fontSize: '1rem' }}>Tel: 123-456-7890</p>
-            <p style={{ fontSize: '1rem' }}>Email: info@mysite.com</p>
+            <p style={{ fontSize: '1rem' }}>LandLine: 096062944</p>
+            <p style={{ fontSize: '1rem' }}>Mobile: 0528439606</p>
+            <p style={{ fontSize: '1rem' }}>Email: daraltayeb7@gmail.com</p>
           </ContactContent>
         </ContactSection>
       </FeatureContainer>
