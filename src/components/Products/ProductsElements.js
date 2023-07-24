@@ -25,13 +25,24 @@ export const ProductImg = styled.img`
   width: 360px;
   height: 300px;
   object-fit: cover;
-  box-shadow: 8px 8px #fdc500;
+  box-shadow: 2px 8px #fdc500;
+  margin: 0 auto;
+
+  @media (max-width: 767px) {
+    width: 300px;
+    height: 250;
+  }
 `;
 
 export const ProductsHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
   margin-bottom: 5rem;
+
+  @media (max-width: 767px) {
+    font-size: 1.5rem;
+    text-align: center; /* Set a specific font size for mobile devices */
+  }
 `;
 
 export const ProductTitle = styled.h2`

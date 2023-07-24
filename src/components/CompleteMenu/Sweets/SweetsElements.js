@@ -67,7 +67,10 @@ export const ProductTitle = styled.h2`
   font-weight: bold;
   font-size: 1.7rem;
   color: #000000;
-  font: ;
+
+  @media (max-width: 767px) {
+    font-size: 1rem;
+  }
 `;
 
 export const ProductInfo = styled.div`
@@ -77,6 +80,11 @@ export const ProductInfo = styled.div`
   align-items: center;
   padding: 2rem;
   text-align: center;
+
+  @media (max-width: 767px) {
+
+    padding: 0rem;
+    font-size: 0.6rem;
 `;
 
 export const ProductDesc = styled.p`

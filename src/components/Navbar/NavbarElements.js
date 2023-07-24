@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { FaPizzaSlice } from 'react-icons/fa';
 
 export const Nav = styled.nav`
   background: transparent;
@@ -11,7 +10,7 @@ export const Nav = styled.nav`
 
 export const NavLink = styled.a`
   color: #fff;
-  font-size: 2rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -20,7 +19,7 @@ export const NavLink = styled.a`
 
   @media screen and (max-width: 768px) {
     margin-right: 1rem;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
   }
 
   @media screen and (max-width: 400px) {
@@ -40,15 +39,10 @@ export const NavIcon = styled.div`
   color: #fff;
 
   p {
-    transform: translate(-175%, 100%);
+    transform: translate(-65%, 100%);
     font-weight: bold;
   }
   &:hover {
     color: #ffcc00;
   }
-`;
-
-export const Bars = styled(FaPizzaSlice)`
-  font-size: 2rem;
-  transform: translate(-50%, -15%);
 `;

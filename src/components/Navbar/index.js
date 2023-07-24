@@ -19,7 +19,7 @@ const Navbar = ({ toggle }) => {
           Home
         </NavLink>
         <NavLink onClick={() => scrollToSection('menu')} href='#menu'>
-          Menu
+          Featured Item
         </NavLink>
         <NavLink onClick={() => scrollToSection('contact')} href='#contact'>
           Contact

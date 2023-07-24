@@ -63,8 +63,8 @@ const Products = ({ heading, data }) => {
         },
       },
     ],
-    prevArrow: <PrevButton></PrevButton>, // Custom previous button
-    nextArrow: <NextButton></NextButton>, // Custom next button
+    prevArrow: <PrevButton></PrevButton>,
+    nextArrow: <NextButton></NextButton>,
   };
 
   return (
@@ -79,7 +79,11 @@ const Products = ({ heading, data }) => {
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
+                <ProductButton>
+                  <a style={{ color: '#fff', textDecoration: 'none' }} href='#contact'>
+                    {product.button}
+                  </a>
+                </ProductButton>
               </ProductInfo>
             </ProductCard>
           ))}

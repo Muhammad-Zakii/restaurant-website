@@ -2,10 +2,17 @@ import product1 from '../../images/MakkanKarhai.jpg';
 import product2 from '../../images/MuttonHandi.jpg';
 import product3 from '../../images/BBQ.jpg';
 import product4 from '../../images/WhiteQorma.jpg';
-
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import product5 from '../../images/MuttonKima.jpg';
+import product6 from '../../images/AluParatha.jpg';
+import product7 from '../../images/ChickenCheeseNan.jpg';
+import product8 from '../../images/Haleem.jpg';
+import product9 from '../../images/Omellete.jpg';
+import sweet1 from '../../images/Rasgulla.jpg';
+import sweet2 from '../../images/GulabJaman.jpg';
+import sweet3 from '../../images/Barfi.jpg';
+import sweet4 from '../../images/GajjarHalwa.jpg';
+import sweet5 from '../../images/Kheer.jpg';
+import sweet6 from '../../images/Custard.jpg';
 
 export const productData = [
   {
@@ -14,15 +21,15 @@ export const productData = [
     name: 'Mutton karahi',
     desc: 'A savory Pakistani dish with mutton cooked in a karahi (wok) with aromatic spices.',
     price: '65.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: product3,
     alt: 'BBQ',
     name: 'BBQ',
-    desc: 'An exquisite assortment of grilled and barbecued meats, marinated to perfection and served with a selection of flavorful sauces.',
+    desc: 'Exquisite grilled & barbecued meats, marinated to perfection, served with flavorful sauces.',
     price: '59.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: product1,
@@ -30,7 +37,7 @@ export const productData = [
     name: 'Mutton Handi',
     desc: 'A flavorful Pakistani dish with mutton cooked in a traditional handi (clay pot).',
     price: '59.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: product4,
@@ -38,7 +45,47 @@ export const productData = [
     name: 'Mutton white korma',
     desc: 'A creamy and mild Pakistani dish with mutton cooked in a white korma sauce.',
     price: '78.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
+  },
+  {
+    img: product5,
+    alt: 'Mutton keema',
+    name: 'Mutton keema',
+    desc: 'A delicious Pakistani dish made with minced mutton and aromatic spices.',
+    price: '55.99 AED',
+    button: 'Order Now',
+  },
+  {
+    img: product6,
+    alt: 'Alu Pratha',
+    name: 'Alu Pratha',
+    desc: 'A delicious Pakistani flatbread stuffed with spiced potato filling.',
+    price: '21.99 AED',
+    button: 'Order Now',
+  },
+  {
+    img: product7,
+    alt: 'Chiken Cheez Nan',
+    name: 'Chiken Cheez Nan',
+    desc: 'A scrumptious Pakistani nan bread with chicken and cheese filling.',
+    price: '28.99 AED',
+    button: 'Order Now',
+  },
+  {
+    img: product8,
+    alt: 'Haleem',
+    name: 'Haleem',
+    desc: 'A popular Pakistani dish made with meat, lentils, and wheat, slow-cooked to perfection.',
+    price: '49.99 AED',
+    button: 'Order Now',
+  },
+  {
+    img: product9,
+    alt: 'Egg Omelette',
+    name: 'Egg Omelette',
+    desc: 'A classic omelette made with eggs and your choice of fillings, popular in Pakistan.',
+    price: '14.99 AED',
+    button: 'Order Now',
   },
 ];
 export const DinnerAndLunchItems = [
@@ -48,7 +95,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton karahi',
     desc: 'A savory Pakistani dish with mutton cooked in a karahi (wok) with aromatic spices.',
     price: '65.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product2.jpg',
@@ -56,7 +103,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton Handi',
     desc: 'A flavorful Pakistani dish with mutton cooked in a traditional handi (clay pot).',
     price: '59.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product3.jpg',
@@ -64,7 +111,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton Achari',
     desc: 'A tangy and spicy Pakistani dish with mutton marinated in pickling spices.',
     price: '68.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product4.jpg',
@@ -72,7 +119,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton korma',
     desc: 'A rich and creamy Pakistani dish with mutton cooked in a flavorful korma sauce.',
     price: '74.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product5.jpg',
@@ -80,7 +127,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton tawwa champ',
     desc: 'Tender and succulent mutton chops cooked to perfection on a tawwa (griddle).',
     price: '82.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product6.jpg',
@@ -88,7 +135,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton keema',
     desc: 'A delicious Pakistani dish made with minced mutton and aromatic spices.',
     price: '55.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product7.jpg',
@@ -96,7 +143,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton chop handi',
     desc: 'A delightful dish with mutton chops cooked in a handi (clay pot) with spices.',
     price: '62.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product8.jpg',
@@ -104,7 +151,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton white korma',
     desc: 'A creamy and mild Pakistani dish with mutton cooked in a white korma sauce.',
     price: '78.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product9.jpg',
@@ -112,7 +159,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton pashawri',
     desc: 'A traditional Pakistani dish with mutton cooked in a Peshawari style.',
     price: '69.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product10.jpg',
@@ -120,7 +167,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton phindi',
     desc: 'A flavorful Pakistani dish with mutton cooked with lotus stem (phindi) and spices.',
     price: '67.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product11.jpg',
@@ -128,7 +175,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton karyla',
     desc: 'A delicious Pakistani dish with mutton and bitter gourd (karyla) cooked together.',
     price: '64.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product12.jpg',
@@ -136,7 +183,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton makhni',
     desc: 'A rich and creamy dish with mutton cooked in a buttery tomato sauce.',
     price: '76.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'product13.jpg',
@@ -144,7 +191,7 @@ export const DinnerAndLunchItems = [
     name: 'Mutton dall mix',
     desc: 'A flavorful Pakistani dish with mutton and mixed lentils cooked together.',
     price: '58.99 AED',
-    button: 'Add to Cart',
+    button: 'Order Now',
   },
   {
     img: 'bbq.jpg',
@@ -152,6 +199,7 @@ export const DinnerAndLunchItems = [
     name: 'BBQ',
     desc: 'An exquisite assortment of grilled and barbecued meats, marinated to perfection and served with a selection of flavorful sauces.',
     price: '59.99 AED',
+    button: 'Order Now',
   },
 ];
 
@@ -434,59 +482,51 @@ export const BreakFastItems = [
 
 export const productDataTwo = [
   {
+    img: sweet1,
+    alt: 'Rasgula',
+    name: 'Rasgula',
+    desc: 'A spongy and sweet dessert made from cottage cheese balls soaked in sugar syrup.',
+    price: '10.99 AED',
+    button: 'Order Now',
+  },
+  {
     img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
-    desc: 'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-    price: '$9.99',
-    button: 'Add to Cart',
+    alt: 'Gulabjaman',
+    name: 'Gulabjaman',
+    desc: 'Delicious deep-fried dumplings soaked in fragrant sugar syrup.',
+    price: '12.99 AED',
+    button: 'Order Now',
   },
   {
     img: sweet3,
-    alt: 'Ice Cream',
-    name: 'Caramel Wonder',
-    desc: 'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
-    price: '$12.99',
-    button: 'Add to Cart',
+    alt: 'Barfi',
+    name: 'Barfi',
+    desc: 'A rich and creamy fudge-like sweet made with condensed milk and various flavors.',
+    price: '8.99 AED',
+    button: 'Order Now',
   },
   {
-    img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
-    desc: 'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
-    button: 'Add to Cart',
+    img: sweet4,
+    alt: 'Gajjar Halwa',
+    name: 'Gajjar Halwa',
+    desc: 'A delectable sweet dish made from grated carrots cooked in milk and sugar.',
+    price: '14.99 AED',
+    button: 'Order Now',
   },
   {
-    img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
-    desc: 'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
-    button: 'Add to Cart',
+    img: sweet5,
+    alt: 'Kheer',
+    name: 'Kheer',
+    desc: 'A classic rice pudding made with milk, rice, and sweetened with sugar or jaggery.',
+    price: '9.99 AED',
+    button: 'Order Now',
   },
   {
-    img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
-    desc: 'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
-    button: 'Add to Cart',
-  },
-  {
-    img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
-    desc: 'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
-    button: 'Add to Cart',
-  },
-  {
-    img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
-    desc: 'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
-    button: 'Add to Cart',
+    img: sweet6,
+    alt: 'Custard',
+    name: 'Custard',
+    desc: 'A creamy and smooth dessert made with milk, eggs, sugar, and flavored with vanilla.',
+    price: '8.99 AED',
+    button: 'Order Now',
   },
 ];
