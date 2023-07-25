@@ -42,6 +42,11 @@ export const BackButton = styled.button`
   margin-bottom: 2rem;
   transition: 0.2s ease-out;
 
+  @media (max-width:767px){
+    font-size:0.6rem;
+    padding: 0.6rem 1rem;
+  }
+
   &:hover {
     background: #e31837; /* Change color on hover */
     transition: 0.2s ease-out;

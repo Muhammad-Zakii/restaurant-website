@@ -37,16 +37,22 @@ export const BackButton = styled.button`
   font-size: 1rem;
   padding: 1rem 2rem;
   border: none;
-  background: #dd2803; /* Use the same color as the after pseudo-element in ProductCard */
+  background: #dd2803;
   color: #fff;
   margin-bottom: 2rem;
   transition: 0.2s ease-out;
 
+  @media (max-width:767px){
+    font-size:0.6rem;
+    padding: 0.6rem 1rem;
+  }
+  
   &:hover {
     background: #e31837; /* Change color on hover */
     transition: 0.2s ease-out;
     cursor: pointer;
   }
+
 `;
 
 export const ProductImg = styled.img`

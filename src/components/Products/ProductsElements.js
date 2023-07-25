@@ -29,6 +29,7 @@ export const ProductImg = styled.img`
   margin: 0 auto;
 
   @media (max-width: 767px) {
+    margin-left:1.7rem;
     width: 300px;
     height: 250;
   }
@@ -41,7 +42,7 @@ export const ProductsHeading = styled.h1`
 
   @media (max-width: 767px) {
     font-size: 1.5rem;
-    text-align: center; /* Set a specific font size for mobile devices */
+    text-align: center;
   }
 `;
 
@@ -57,6 +58,16 @@ export const ProductInfo = styled.div`
   align-items: center;
   padding: 2rem;
   text-align: center;
+
+  @media (max-width:767px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    margin-right:4.5rem;
+    text-align: center;
+  }
 `;
 
 export const ProductDesc = styled.p`
