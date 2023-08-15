@@ -8,7 +8,7 @@ import {
   ProductTitle,
   ProductDesc,
   BackButton,
-  // ProductPrice,
+  ProductPrice,
 } from './SweetsElements';
 import { SweetsItems } from '../../Products/data';
 import { Link } from 'react-router-dom';
@@ -27,7 +27,7 @@ const Sweets = () => {
             <ProductInfo>
               <ProductTitle>{product.name}</ProductTitle>
               <ProductDesc>{product.desc}</ProductDesc>
-              {/* <ProductPrice>{product.price}</ProductPrice> */}
+              <ProductPrice>{product.price}</ProductPrice>
             </ProductInfo>
           </ProductCard>
         ))}

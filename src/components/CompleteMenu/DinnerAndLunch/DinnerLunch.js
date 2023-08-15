@@ -8,7 +8,7 @@ import {
   ProductTitle,
   ProductDesc,
   BackButton,
-  // ProductPrice,
+  ProductPrice,
 } from './DinnerAndLunchElements';
 import { DinnerAndLunchItems } from '../../Products/data';
 import { Link } from 'react-router-dom';
@@ -28,7 +28,7 @@ const DinnerAndLunch = () => {
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
-                {/* <ProductPrice>{product.price}</ProductPrice> */}
+                <ProductPrice>{product.price}</ProductPrice>
               </ProductInfo>
             </ProductCard>
           ))}

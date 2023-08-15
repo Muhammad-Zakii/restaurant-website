@@ -9,6 +9,7 @@ import {
   ProductTitle,
   ProductDesc,
   BackButton,
+  ProductPrice,
 } from './BreakFastElements';
 import { BreakFastItems } from '../../Products/data';
 
@@ -26,6 +27,7 @@ const Breakfast = () => {
             <ProductInfo>
               <ProductTitle>{product.name}</ProductTitle>
               <ProductDesc>{product.desc}</ProductDesc>
+              <ProductPrice>{product.price}</ProductPrice>
             </ProductInfo>
           </ProductCard>
         ))}
