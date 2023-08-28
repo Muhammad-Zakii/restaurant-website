@@ -6,8 +6,8 @@ import Footer from './components/Footer';
 const Sweets = lazy(() => import('./components/CompleteMenu/Sweets/Sweets'));
 const LunchAndDinner = lazy(() => import('./components/CompleteMenu/DinnerAndLunch/DinnerLunch'));
 const BreakFast = lazy(() => import('./components/CompleteMenu/BreakFast/BreakFast'));
-
-
+const Snacks = lazy(() => import('./components/CompleteMenu/Snacks/Snacks'));
+const Bbq = lazy(() => import('./components/CompleteMenu/BBQ/Bbq'));
 
 const CenteredFallback = () => (
   <div
@@ -27,10 +27,12 @@ function App() {
     <Router>
       <Route exact path='/' component={Main} />
 
-      <Suspense fallback={<CenteredFallback/>}>
+      <Suspense fallback={<CenteredFallback />}>
         <Route path='/sweets' component={Sweets} />
         <Route path='/breakfast' component={BreakFast} />
         <Route path='/lunchanddinner' component={LunchAndDinner} />
+        <Route path='/snacks' component={Snacks} />
+        <Route path='/bbq' component={Bbq} />
       </Suspense>
 
       <Footer />

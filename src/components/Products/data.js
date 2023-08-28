@@ -194,12 +194,64 @@ export const DinnerAndLunchItems = [
     button: 'Order Now',
   },
   {
-    img: 'bbq.jpg',
-    alt: 'BBQ',
-    name: 'BBQ',
-    desc: 'An exquisite assortment of grilled and barbecued meats, marinated to perfection and served with a selection of flavorful sauces.',
+    name: 'Chicken Karahi',
+    desc: 'Spicy chicken curry cooked in a karahi, a traditional Pakistani wok',
+    price: '10.0 AED',
+  },
+  {
+    name: 'Chicken Korma',
+    desc: 'Creamy chicken curry with rich flavors and spices',
+    price: '10.0 AED',
+  },
+  {
+    name: 'Chicken Tawa',
+    desc: 'Chicken cooked on a flat griddle with a blend of spices',
     price: '15.0 AED',
-    button: 'Order Now',
+  },
+  {
+    name: 'Chicken Green',
+    desc: 'Chicken curry made with green herbs and spices',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken Jalfrezi',
+    desc: 'Spicy chicken stir-fry with assorted vegetables',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken White Karahi',
+    desc: 'Creamy white chicken curry cooked in a karahi',
+    price: 'Best Buy',
+  },
+  {
+    name: 'Chicken Achari',
+    desc: 'Chicken curry with a tangy pickle-like flavor',
+    price: '12.0 AED',
+  },
+  {
+    name: 'Chicken Tikka Karahi',
+    desc: 'Chicken tikka cooked in a karahi with spices',
+    price: '20.0 AED',
+  },
+  {
+    name: 'Chicken Ginger',
+    desc: 'Chicken curry with prominent ginger flavor',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Peshawari Karahi',
+    desc: 'Special chicken karahi with Peshawari spices and flavors',
+    price: 'Best Buy',
+  },
+  {
+    name: 'Chicken Black Pepper',
+    desc: 'Chicken curry seasoned with black pepper',
+    price: 'Best Buy',
+  },
+  {
+    name: 'Chicken Makhni',
+    desc: 'Butter chicken with a creamy tomato-based sauce',
+    price: '18.0 AED',
   },
 ];
 
@@ -481,6 +533,41 @@ export const BreakFastItems = [
     desc: 'A classic omelette made with eggs and your choice of fillings, popular in Pakistan.',
     price: '2.0 AED',
   },
+  {
+    name: 'Namkeen Lassi',
+    desc: 'Savory yogurt-based drink',
+    price: '3.0 AED',
+  },
+  {
+    name: 'Sweet Lassi',
+    desc: 'Sweetened yogurt-based drink',
+    price: '3.0 AED',
+  },
+  {
+    name: 'Karak Chai',
+    desc: 'Strong and flavorful tea',
+    price: '1.0 AED',
+  },
+  {
+    name: 'Dahi',
+    desc: 'Plain yogurt',
+    price: '4.0 AED',
+  },
+  {
+    name: 'Maghaz',
+    desc: 'Brain curry',
+    price: '10.0 AED',
+  },
+  {
+    name: 'Aloo Keema',
+    desc: 'Minced meat and potato curry',
+    price: '10.0 AED',
+  },
+  {
+    name: 'Mutter Keema',
+    desc: 'Minced meat and peas curry',
+    price: '10.0 AED',
+  },
 ];
 
 export const productDataTwo = [
@@ -531,5 +618,236 @@ export const productDataTwo = [
     desc: 'A creamy and smooth dessert made with milk, eggs, sugar, and flavored with vanilla.',
     price: '5.0 AED',
     button: 'Order Now',
+  },
+];
+
+export const SnacksFastFood = [
+  {
+    name: 'Papri Chana Chaat',
+    desc: 'A delightful combination of crispy papri, chickpeas, and tangy chutneys.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Dahi Poori',
+    desc: 'Crispy puris filled with yogurt, spices, and chutneys.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Samosa Chaat',
+    desc: 'Samosa pieces topped with yogurt, chutneys, and spices.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Dahi Bara',
+    desc: 'Lentil-based dumplings soaked in yogurt and garnished with spices.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Pani Puri',
+    desc: 'Hollow puris filled with flavored water, potatoes, and chutneys.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'French Fries',
+    desc: 'Crispy and seasoned potato fries.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Potato Samosa',
+    desc: 'Crispy pastry filled with spiced potato filling.',
+    price: '1.0 AED',
+  },
+  {
+    name: 'Shami Kabab',
+    desc: 'Minced meat patties seasoned with spices and herbs.',
+    price: '2.50 AED',
+  },
+  {
+    name: 'Chicken Patties',
+    desc: 'Flaky pastry filled with flavorful minced chicken.',
+    price: '2.0 AED',
+  },
+  {
+    name: 'Roll Bread',
+    desc: 'Flatbread wrapped around a filling of your choice.',
+    price: '3.5 AED',
+  },
+  {
+    name: 'Zinger Burger',
+    desc: 'Crunchy chicken fillet burger with zesty flavors.',
+    price: '8.0 AED',
+  },
+  {
+    name: 'Shami Burger',
+    desc: 'Burger with a shami kabab patty and condiments.',
+    price: '6.0 AED',
+  },
+  {
+    name: 'Tikka Burger',
+    desc: 'Burger featuring flavorful chicken tikka as the patty.',
+    price: '8.0 AED',
+  },
+  {
+    name: 'Beef Burger',
+    desc: 'Classic beef burger with juicy and savory flavors.',
+    price: '6.0 AED',
+  },
+  {
+    name: 'Chicken Grill Burger',
+    desc: 'Grilled chicken burger with a delicious smoky taste.',
+    price: '9.0 AED',
+  },
+  {
+    name: 'Chicken Burger',
+    desc: 'Chicken patty burger with a medley of toppings.',
+    price: '6.0 AED',
+  },
+  {
+    name: 'Chicken Shawarma Burger',
+    desc: 'Burger with tender chicken shawarma and condiments.',
+    price: '9.0 AED',
+  },
+  {
+    name: 'BBQ Pizza Special',
+    desc: 'Pizza loaded with BBQ toppings for a flavorful experience.',
+    price: '25 AED',
+  },
+  {
+    name: 'Cream Chaat',
+    desc: 'Creamy and delicious chaat with various toppings.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Ras Malai',
+    desc: 'Delicate dessert made with soft cheese dumplings in sweet milk.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Falooda',
+    desc: 'Refreshing dessert with vermicelli, rose syrup, and ice cream.',
+    price: '7.0 AED',
+  },
+  {
+    name: 'Kulfi',
+    desc: 'Traditional Indian ice cream with rich flavors.',
+    price: '3.0 AED',
+  },
+  {
+    name: 'Special Kheer',
+    desc: 'Rice pudding with nuts, saffron, and aromatic spices.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Custard',
+    desc: 'Smooth and creamy dessert made from custard powder.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Rabri Dhooh',
+    desc: 'Sweetened condensed milk dessert with a rich and creamy texture.',
+    price: '5.0 AED',
+  },
+  {
+    name: 'Royal Falooda',
+    desc: 'Elegant dessert with layers of falooda, ice cream, and syrups.',
+    price: '8.0 AED',
+  },
+  {
+    name: 'Shahi Tukda',
+    desc: 'Indian bread pudding flavored with cardamom and saffron.',
+    price: '5.0 AED',
+  },
+];
+
+export const BbqData = [
+  {
+    name: 'Chicken Tikka',
+    desc: 'Tender pieces of chicken marinated and grilled to perfection.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken Green Tikka',
+    desc: 'Chicken tikka with a fresh and flavorful green marinade.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken Malai Boti',
+    desc: 'Creamy and succulent chicken boti cooked with spices.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken Achari Tikka',
+    desc: 'Chicken tikka marinated with tangy and spicy pickle flavors.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken Seekh Kabab',
+    desc: 'Skewered minced chicken kababs seasoned with aromatic spices.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken Reshmi Kabab',
+    desc: 'Delicate chicken kababs made with a silky marinade.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Chicken Grill Black',
+    desc: 'Grilled chicken with a rich and smoky flavor.',
+    price: '35.0 AED',
+  },
+  {
+    name: 'Chicken Grill',
+    desc: 'Classic grilled chicken with a delicious taste.',
+    price: '35.0 AED',
+  },
+  {
+    name: 'Chicken Piece',
+    desc: 'Single piece of succulent chicken.',
+    price: '7.0 AED',
+  },
+  {
+    name: 'Chicken Fried',
+    desc: 'Crispy and flavorful fried chicken.',
+    price: 'Best Buy',
+  },
+  {
+    name: 'Chicken Chargha',
+    desc: 'Whole marinated and deep-fried chicken.',
+    price: '25.0 AED',
+  },
+  {
+    name: 'Grill Fish',
+    desc: 'Fresh fish grilled to perfection.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Mutton Chop BBQ',
+    desc: 'Grilled mutton chops with a BBQ flavor.',
+    price: '18.0 AED',
+  },
+  {
+    name: 'Mutton Kabab',
+    desc: 'Spiced and flavorful minced mutton kababs.',
+    price: '15.0 AED',
+  },
+  {
+    name: 'Mutton Tikka Boti',
+    desc: 'Tender mutton pieces marinated and grilled.',
+    price: '18.0 AED',
+  },
+  {
+    name: 'Mutton Mandi',
+    desc: 'Aromatic rice and mutton dish with Middle Eastern flavors.',
+    price: '30.0 AED',
+  },
+  {
+    name: 'Mutton Shuwa',
+    desc: 'Slow-cooked mutton with traditional spices and flavors.',
+    price: '30.0 AED',
+  },
+  {
+    name: 'Bukhari Pulao',
+    desc: 'Flavorful rice dish with a mix of spices and meat.',
+    price: '30.0 AED',
   },
 ];
